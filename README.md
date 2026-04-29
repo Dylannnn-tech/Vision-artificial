@@ -11,6 +11,9 @@ Aplicación básica de seguridad usando visión artificial con Python.
 - Python
 - OpenCV
 
+## ⚙️ Instalación
+pip install opencv-python
+
 ## ▶️ Ejecución
 ```bash
 python app_seguridad.py
