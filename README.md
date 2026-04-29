@@ -1,4 +1,4 @@
-# Vision Artificial
+# Sistema de Seguridad con Visión Artificial
 
 Aplicación básica de seguridad usando visión artificial con Python.
 
