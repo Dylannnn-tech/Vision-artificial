@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="-QxZgE0IQxEREcPDfu0M">
+    <mxGraphModel dx="1614" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;gradientColor=none;swimlaneFillColor=none;fillColor=default;" value="Pelicula" vertex="1">
+          <mxGeometry height="260" width="160" x="160" y="200" as="geometry">
+            <mxRectangle height="30" width="80" x="160" y="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-2" parent="BHEsJNOKKjzl8trfKbNC-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="id_pelicula (PK)" vertex="1">
+          <mxGeometry height="30" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-3" parent="BHEsJNOKKjzl8trfKbNC-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="titulo" vertex="1">
+          <mxGeometry height="30" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-4" parent="BHEsJNOKKjzl8trfKbNC-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="año_publicacion&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;resumen&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_director (FK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_guionista(FK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_director_fotografia(FK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_pais(FK)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-39" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Director" vertex="1">
+          <mxGeometry height="140" width="160" x="160" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-40" parent="BHEsJNOKKjzl8trfKbNC-39" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="id_director (PK)&lt;div&gt;&lt;br&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nacionalidad&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fecha_nacimiento&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-45" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Guionista" vertex="1">
+          <mxGeometry height="140" width="160" x="160" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-46" parent="BHEsJNOKKjzl8trfKbNC-45" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="id_guionista (PK)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nacionalidad&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fecha_nacimiento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-48" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Director_fotografia" vertex="1">
+          <mxGeometry height="140" width="160" x="400" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-49" parent="BHEsJNOKKjzl8trfKbNC-48" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="id_director_fotografia (PK)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nacionalidad&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fecha_nacimiento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-51" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Actor" vertex="1">
+          <mxGeometry height="140" width="160" x="400" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-52" parent="BHEsJNOKKjzl8trfKbNC-51" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="id_actor (PK)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nacionalidad&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fecha_nacimiento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-54" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Género" vertex="1">
+          <mxGeometry height="80" width="160" x="400" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-55" parent="BHEsJNOKKjzl8trfKbNC-54" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="id_genero (PK)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-56" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="País" vertex="1">
+          <mxGeometry height="90" width="160" x="400" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-57" parent="BHEsJNOKKjzl8trfKbNC-56" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="id_pais (PK)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-58" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Reseña" vertex="1">
+          <mxGeometry height="220" width="160" x="640" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-59" parent="BHEsJNOKKjzl8trfKbNC-58" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="id_reseña (PK)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;comentario&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;calificacion&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fecha_reseña&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_usuario (FK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_pelicula (FK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-61" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Consulta" vertex="1">
+          <mxGeometry height="160" width="160" x="640" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-62" parent="BHEsJNOKKjzl8trfKbNC-61" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="id_consulta (PK)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fecha_consulta&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_usuario (FK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_pelicula (FK)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-64" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Pelicula actor" vertex="1">
+          <mxGeometry height="100" width="160" x="640" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-65" parent="BHEsJNOKKjzl8trfKbNC-64" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="id_pelicula (PK-FK)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_actor(PK-FK)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-67" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Pelicula Género" vertex="1">
+          <mxGeometry height="90" width="160" x="640" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="BHEsJNOKKjzl8trfKbNC-68" parent="BHEsJNOKKjzl8trfKbNC-67" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="id_pelicula (PK-FK)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_genero (PK-FK)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
